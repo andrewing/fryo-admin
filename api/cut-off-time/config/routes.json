@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cut-off-time",
+      "handler": "cut-off-time.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cut-off-time",
+      "handler": "cut-off-time.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cut-off-time",
+      "handler": "cut-off-time.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

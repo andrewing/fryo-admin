@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "cut_off_times",
+  "info": {
+    "name": "Cut Off Time"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "time": {
+      "type": "time"
+    },
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  }
+}

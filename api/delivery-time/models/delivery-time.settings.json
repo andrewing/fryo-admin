@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "delivery_times",
+  "info": {
+    "name": "Delivery Time"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "from": {
+      "type": "time"
+    },
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "to": {
+      "type": "time"
+    }
+  }
+}

@@ -9,13 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Price": {
+    "price": {
       "type": "integer"
     },
-    "Picture": {
+    "picture": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

@@ -15,16 +15,8 @@
     "price": {
       "type": "integer"
     },
-    "picture": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "link": {
+      "type": "string"
     }
   }
 }
